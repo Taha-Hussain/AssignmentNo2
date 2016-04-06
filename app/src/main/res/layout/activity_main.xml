@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow">
+<RelativeLayout style="@style/MyCustomizeAppBar">
+    <TextView
+        android:text="Assignment No# 2"
+        android:layout_centerInParent="true"
+        style="@style/MyCustomizeAppTitle"/>
+</RelativeLayout>
+
+    <Button
+        android:text="Menu"
+        android:drawableLeft="@drawable/menu"
+        style="@style/MyHomeButton" />
+    <Button
+        android:drawableLeft="@drawable/deals"
+        android:text="Deals"
+        style="@style/MyHomeButton"/>
+    <Button
+
+        android:drawableLeft="@drawable/about"
+        android:text="About Us"
+        style="@style/MyHomeButton"/>
+    <Button
+        android:text="Contact"
+        android:drawableLeft="@drawable/contact"
+        style="@style/MyHomeButton"
+/>
+</LinearLayout>
